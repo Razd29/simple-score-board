@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Basketball Score Board</title>
+</head>
+<body>
+  <div class="container">
+    <div class="card1">
+      <p id="team1">TEAM 1</p>
+      <div class="card-overlay"></div>
+      <div id="card-inner-01">0</div>
+    </div>
+    <div class="card2">
+      <p id="team2">TEAM 2</p>
+      <div class="card-overlay"></div>
+      <div id="card-inner-02">0</div>
+    </div>
+  </div>
+  <div class="btn">
+    <button class="btn-style" onclick="addTeam1Score()">+</button>
+    <button class="btn-style" onclick="subtractTeam1Score()">-</button>
+    <button class="btn-style" onclick="addTeam2Score()">+</button>
+    <button class="btn-style" onclick="subtractTeam2Score()">-</button>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
